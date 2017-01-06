@@ -8,6 +8,7 @@ namespace CRM_Migracion
 {
     class MigraAltaEjecutivo
     {
+        //hola 
         public void Migra(int idReferido)
         {
             SAAPADataContext saapa = new SAAPADataContext();
