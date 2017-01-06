@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SAAPA">
+  <DataContextMoniker Name="/SAAPADataContext" />
+  <nestedChildShapes>
+    <classShape Id="5f978b0e-1ad6-4fdd-a38d-8bf93d101ed5" absoluteBounds="0.5, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SAAPADataContext/BrokersReferido" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb3c333f-affd-44dc-af52-4d79c8b62942" absoluteBounds="0.51499999999999968, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dd8fa136-6abd-4a51-a495-b5a32735eefb" absoluteBounds="2.75, 0.875, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/SAAPADataContext/BrokersAltaEjecutivo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6668ae2d-5a6e-41c0-aeea-e26d190b8dcb" absoluteBounds="2.7649999999999997, 1.335, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b9440d03-3e11-43a5-94c0-1f3338557220" absoluteBounds="7, 3.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SAAPADataContext/BrokersMigrar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41774915-3509-42b8-b4df-73d3aab4fed2" absoluteBounds="7.015, 3.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

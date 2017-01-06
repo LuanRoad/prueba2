@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SISEC" Class="SISECDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=172.23.10.167;Initial Catalog=SISEC;User ID=migracione" SettingsObjectName="CRM_Migracion.Properties.Settings" SettingsPropertyName="SISECConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BrokersAltaEjecutivo" Member="BrokersAltaEjecutivoSISEC">
+    <Type Name="BrokersAltaEjecutivoSISEC">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IdInmobiliaria" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SegundoNombre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApellidoPaterno" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ApellidoMaterno" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FechaRegistro" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UserIdRegistro" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="activo" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Telefono" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Correo" Type="System.String" DbType="NVarChar(70)" CanBeNull="true" />
+      <Column Name="Curp" Type="System.String" DbType="NVarChar(18)" CanBeNull="true" />
+      <Column Name="IdBrokerEmpleado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BrokersReferidos" Member="BrokersReferidosSISEC">
+    <Type Name="BrokersReferidosSISEC">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IdBroker" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="IdTipoReferido" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdRegistro" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="FechaRegistro" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Activo" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

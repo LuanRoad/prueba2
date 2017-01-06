@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SISEC">
+  <DataContextMoniker Name="/SISECDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5f9283dd-7ab3-49e3-87bc-0906783d853d" absoluteBounds="6.125, 2, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/SISECDataContext/BrokersAltaEjecutivoSISEC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ba3bb72-ab0c-48e4-9f41-3096654fa19e" absoluteBounds="6.14, 2.46, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0181ff49-db99-485e-a97b-d578de72e6a9" absoluteBounds="3.25, 2, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SISECDataContext/BrokersReferidosSISEC" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5418094b-6ad8-46ed-b446-73eb0e3382e8" absoluteBounds="3.2649999999999997, 2.46, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
